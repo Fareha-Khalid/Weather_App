@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professional Weather App 🌤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Weather App 🌤️</h1>
+
+    <div class="controls">
+      <input id="cityInput" placeholder="Enter city name..." />
+      <button id="searchBtn">Search</button>
+      <!-- <button id="geoBtn" title="Use my location">📍</button> -->
+       <button id="geoBtn" class="geo-btn" title="Use my location">My Loc📍</button>
+    </div>
+
+    <div class="error" id="errorBox"></div>
+
+    <div class="result" id="resultCard">
+      <div class="top">
+        <div class="icon" id="weatherIcon">☀️</div>
+        <div class="temp" id="temp">-- °C</div>
+      </div>
+      <div class="bottom">
+        <div class="desc" id="desc">--</div>
+        <div class="meta" id="meta">Humidity: -- | Wind: -- m/s</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
