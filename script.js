@@ -1,4 +1,4 @@
-const API_KEY = "cc5f85893b3f3a3df0d21da54dfb2e1e";
+const API_KEY = "api_key";
 const units = "metric";
 
 const cityInput = document.getElementById("cityInput");
@@ -122,4 +122,5 @@ geoBtn.addEventListener("click",()=>{
     ()=> showError("Location permission denied.")
   );
 });
+
 
